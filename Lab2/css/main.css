@@ -1,0 +1,292 @@
+@font-face {
+    font-family:Inter-light;
+    src:url("../fonts/Inter-Light.woff2") format("woff");
+}
+
+@font-face {
+    font-family:Inter-regular;
+    src:url("../fonts/Inter-regular.woff2") format("woff");
+}
+
+@font-face {
+    font-family:Inter-bold;
+    src:url("../fonts/Inter-bold.woff2") format("woff");
+}
+
+
+body{
+    
+    font-family: 'Inter-regular';
+    font-weight: normal;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    
+}
+
+
+.nav-link {
+	color: white ; 
+}
+
+
+.social-net-svg-container{
+    
+    display: flex;
+    width: 19%;
+    justify-content: space-between;
+}
+
+.zagolovok{
+    
+    font-weight: bold;
+    font-size: 64px;
+    color: #AB00EA;
+    font-family: Inter-bold;
+    
+}
+	
+.subtitle{
+    
+    font-size: 48px;
+	color: white;
+	font-family: Inter-light;
+}
+
+.uptext{
+    
+    font-size: 18px;
+color: white;
+font-family: Inter-regular;
+}
+
+
+	
+
+.courses__nav_link{
+
+    color: #fff !important;
+    font-size: 18px;
+}
+
+
+
+.btn-ithub{
+    
+    border: none;
+    background-color: #AB00EA;
+    color: white;
+	font-family: Inter-regular;
+    
+}
+
+.btn-purple 
+
+{
+	
+	--bs-btn-color:#AB00EA;
+	--bs-btn-border-color:#AB00EA;
+	--bs-btn-hover-color:#fff;
+	--bs-btn-hover-bg:#AB00EA;
+	--bs-btn-hover-border-color:#AB00EA;
+	--bs-btn-focus-shadow-rgb:13,110,253;
+	--bs-btn-active-color:#fff;
+	--bs-btn-active-bg:#AB00EA;
+	--bs-btn-active-border-color:#AB00EA;
+	--bs-btn-active-shadow:inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color:#AB00EA;
+	--bs-btn-disabled-bg:transparent;
+	--bs-btn-disabled-border-color:#AB00EA;
+	--bs-gradient:none}
+
+
+.w19 {
+width: 19%;
+
+}
+
+.border-purple {
+
+border-color: #AB00EA;
+
+}
+
+.card-head-type{
+  
+  position: absolute;
+  display: flex;
+  margin-left: 1em;
+  margin-top: -0.7em;
+  
+}
+
+.card-title {
+font-size: 17px;
+font-family: Inter-regular;
+
+}
+
+.btn-somewhere{
+   
+    background-color: #AB00EA;
+    color: white;
+	font-family: Inter-regular;
+	font-size: 14px;
+    border-radius: 0px;
+	--bs-nav-pills-link-active-bg: #AB00EA;
+}
+.head-date {
+
+text-align: right;
+font-family: Inter-Light;
+
+}
+
+.x-container {
+	max-width:1140px;
+}
+
+
+
+.get-friend{
+        
+
+background-color:black;
+        
+border: 1px solid white;
+        
+font-size: 1.25rem;
+  
+font-family: Inter-light;  
+}
+
+.direction_titles__item_desc {
+      display: none;
+  }
+.direction__block {
+      margin-left: 14px;
+  }
+.direction_titles__item_active {
+      background-color: #AB00EA;
+      font-weight: bold;
+  }
+ .direction_titles__item {
+      border: 3px solid #AB00EA;
+      padding: 5px;
+      float: left;
+      margin: 5px 10px 5px 0;
+      cursor: pointer;
+  }
+
+.dtext{
+    
+    font-size: 16px;
+    color: white;
+    font-family: Inter-regular;
+}
+
+.img-hover{
+  
+     border-radius: 0;
+     border: 3px solid #AB00EA;
+	 width: 256px;
+     height: 296px;
+	
+	 
+}
+
+.badge{
+    
+    border-radius: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5px 60px 5px 60px;
+    white-space: normal;
+}
+
+
+.badge-ithub{
+    
+    font-size: 10px !important;
+    font-weight: 200 !important;
+    color: white;
+    background-color: #AB00EA;
+    
+}
+
+.card_header{
+    transition: 0.2s;
+    font-size: 17px !important;
+    width: 100%;
+    padding: 0.5em;
+    background: #AB00EA !important;
+    margin-top: -5em;
+	color: white;
+	text-decoration: none;
+	
+    
+}
+
+.profession-card-text{
+    transition: 0.2s;
+    opacity: 0;
+    margin-bottom: -8em;
+    padding: 0 1em;
+}
+
+.card-title{
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+  font-size: 17px;
+  
+}
+.profession-card{
+    
+    padding: 0 !important;
+    display: flex;
+    align-items: flex-end;s
+    
+}
+.profession-card{
+    
+    transition: 0.2s;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    
+}
+
+.spec__howstudy-title {
+    color: #AB00EA;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.spec__howstudy-desc {
+    font-size: 19px;
+}
+
+.nav-link.active {
+background-color: #ab00ea!important; }
+
+.nav-link:hover {
+    color: white!important;
+}
+
+.background-picture:before{
+    content: "";
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.footer-list > li{
+    margin-bottom: 1em;
+}
